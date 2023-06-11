@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"></a>
+        <div class="menuHamburger" onclick="toggleMenu()"></div>
+        <ul class="navigation">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#experts">Experts</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Explore The World </h2>
+            <p>Digital Opportunities</p>
+            <a href="#" class="btn">Your Choice</a>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col150">
+                <h2><span class="title-span">A</span>bout Us</h2>
+                <p>Welcome to <span class="firm">Digital</span> where we breathe life into the digital realm! As a
+                    cutting-edge company
+                    specializing in all things digital, we are passionate about transforming ideas into immersive
+                    experiences that captivate audiences and drive business growth.
+
+                    At <span class="firm">Digital</span>, we understand that in today's fast-paced world, the digital
+                    landscape is
+                    constantly evolving. That's why our team of skilled professionals stays ahead of the curve,
+                    utilizing the latest technologies and industry trends to deliver innovative solutions that make a
+                    lasting impact.
+                    <br><br>
+                    Our journey began with a vision to revolutionize the way businesses harness the power of the digital
+                    world. With years of collective expertise and a relentless commitment to excellence, we have grown
+                    into a trusted partner for companies across various sectors, helping them navigate the digital
+                    landscape with confidence.
+                    <br><br>
+                    What sets us apart is our unwavering focus on understanding our clients' unique needs and goals. We
+                    believe that each project is an opportunity to create something extraordinary, tailored specifically
+                    to our clients' requirements. Whether you are a startup looking to make a grand entrance or an
+                    established enterprise aiming to enhance your online presence, we have the expertise to bring your
+                    vision to life.
+                    <br><br>
+                    Our talented team comprises creative designers, skilled developers, strategic thinkers, and digital
+                    marketing experts who work seamlessly together to deliver exceptional results. From web and mobile
+                    app development to user experience design, e-commerce solutions, and digital marketing campaigns, we
+                    offer a comprehensive suite of services that cater to every aspect of the digital ecosystem.
+                    <!-- <br><br>
+                    But it's not just about the technical expertise; it's also about building strong relationships with
+                    our clients. We pride ourselves on our transparent communication, collaboration, and a deep
+                    understanding of our clients' businesses. We view ourselves as an extension of your team, working
+                    hand in hand to achieve your digital objectives and surpass expectations. -->
+
+                </p>
+            </div>
+            <div class="col150">
+                <div class="imgbox">
+                    <img src="imgabout.jpg">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="title">
+            <h2 class="title-services"><span class="title-span">S</span>ervices</h2>
+            <p>Everything you need to know</p>
+        </div>
+        <div class="content">
+            <div class="box hidden">
+                <div class="imgBx">
+                    <img src="robotics.jpg">
+                </div>
+                <div class="text">
+                    <h3>Robotics</h3>
+                </div>
+            </div>
+            <div class="box hidden">
+                <div class="imgBx">
+                    <img src="computers.jpg">
+                </div>
+                <div class="text">
+                    <h3>Advanced Computers</h3>
+                </div>
+            </div>
+            <div class="box hidden">
+                <div class="imgBx">
+                    <img src="programming.jpg">
+                </div>
+                <div class="text">
+                    <h3>Programming</h3>
+                </div>
+            </div>
+            <div class="box hidden">
+                <div class="imgBx">
+                    <img src="art.jpg">
+                </div>
+                <div class="text">
+                    <h3>Digital Art</h3>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+            <a href="#" class="btn1">View All</a>
+        </div>
+    </section>
+    <section class="services-mobile" id="services-mobile">
+        <div class="title">
+            <h2 class="title-services"><span class="title-span">S</span>ervices</h2>
+            <p>Everything you need to know</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="robotics.jpg">
+                </div>
+                <div class="text">
+                    <h3>Robotics</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="computers.jpg">
+                </div>
+                <div class="text">
+                    <h3>Advanced Computers</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="programming.jpg">
+                </div>
+                <div class="text">
+                    <h3>Programming</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="art.jpg">
+                </div>
+                <div class="text">
+                    <h3>Digital Art</h3>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+            <a href="#" class="btn1">View All</a>
+        </div>
+    </section>
+    <section class="experts" id="experts">
+        <div class="title">
+            <h2 class="title-services"><span class="title-span">E</span>xperts</h2>
+            <p>Everything you need to know</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="face1.jpg">
+                </div>
+                <div class="text">
+                    <h3>Michael Bay</h3>
+                    <p class="back-text">(full stack development)</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="face2.jpg">
+                </div>
+                <div class="text">
+                    <h3>Joana Lowrey</h3>
+                    <p class="back-text">(digital art)</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="face3.jpg">
+                </div>
+                <div class="text">
+                    <h3>Andrew Ramone</h3>
+                    <p class="back-text">(marketing & desing)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact_pos">
+            <div class="title">
+                <h2 class="title-services"><span class="title-span">C</span>ontact Us</h2>
+                <p>Everything you need to know</p>
+            </div>
+            <div class="contactForm">
+                <h3>Send Message</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <textarea placeholder="Write something"></textarea>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Send">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="copyright_bot">
+        <p>Copyright 2023 <a href="#">Digital.</a> All Right Reserved</p>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                console.log(entry)
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                } else {
+                    entry.target.classList.remove('show');
+                }
+            });
+        });
+
+      
+        const hiddenElements = document.querySelectorAll('.hidden');
+        hiddenElements.forEach((el) => observer.observe(el));
+
+        function toggleMenu() {
+            const menuHamburger = document.querySelector('.menuHamburger');
+            const navigation = document.querySelector('.navigation');
+
+            menuHamburger.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
